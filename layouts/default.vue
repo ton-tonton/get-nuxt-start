@@ -1,5 +1,12 @@
 <template>
   <div>
+    <nav>
+      <nuxt-link to="/">Home page</nuxt-link>
+      <nuxt-link to="/one">One page</nuxt-link>
+      <nuxt-link to="/two">Two page</nuxt-link>
+    </nav>
+    <br>
+    <br>
     <nuxt />
   </div>
 </template>
